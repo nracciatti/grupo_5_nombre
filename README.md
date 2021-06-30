@@ -23,7 +23,7 @@
 - ***Maria Palavecino***
   >Colocar aqui breve descripción.
 
-- ***Nicolas Palavecino***
-  >Colocar aqui breve descripción.
+- ***Nicolas Racciatti***
+  > Mucho esfuerzo y estudio para cumplir el objetivo de ser Desarrollador FullStack, mecanica, juegos.
 
 
