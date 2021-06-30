@@ -24,6 +24,6 @@
   >Colocar aqui breve descripción.
 
 - ***Nicolas Racciatti***
-  >Colocar aqui breve descripción.
+  > Mucho esfuerzo y estudio para cumplir el objetivo de ser Desarrollador FullStack, mecanica, juegos.
 
 
