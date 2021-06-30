@@ -23,7 +23,7 @@
 - ***Maria Palavecino***
   >Colocar aqui breve descripción.
 
-- ***Nicolas Palavecino***
+- ***Nicolas Racciatti***
   >Colocar aqui breve descripción.
 
 
