@@ -18,7 +18,7 @@
 
 ## Integrantes: 🤩
 - ***Martin Castro***
-  > Amante de la técnologia, colaborador, proactivo y organizado. Preparandome para formarme con ***Desarrollador FullStack***
+  > Amante de la técnologia, colaborador, proactivo y organizado. Preparandome para formarme con ***Desarrollador FullStack 💪💪💪***
 
 - ***Maria Palavecino***
   >Colocar aqui breve descripción.
