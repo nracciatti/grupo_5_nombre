@@ -1,0 +1,23 @@
+{
+  "name": "grupo_5_furnituresdigitalmarket",
+  "version": "1.0.0",
+  "description": "## Furnitures Digital Market 🚀 *Esta tienda electrónica fue concebida con la finalidad de antender las necesidades de un exclusivo y exigente público, ofreciendo productos de alta gama, fabricados bajo los estandares más altos de calidad y diseño.* :star2:🥇:star2:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincastro1575/grupo_5_FurnituresDigitalMarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martincastro1575/grupo_5_FurnituresDigitalMarket/issues"
+  },
+  "homepage": "https://github.com/martincastro1575/grupo_5_FurnituresDigitalMarket#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
