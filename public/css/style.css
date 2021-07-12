@@ -1,0 +1,94 @@
+/* AQUI INICIA ESTILOS GENERALES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* AQUI TERMINA ESTILOS GENERALES */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA HEADER */
+.header-top{
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap; */
+    padding: 5px;
+    width: 100%;
+    background-color: #42938E; /* #6DADE0; */
+}
+
+.header-top a, i{
+    font-size: 14px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.nav-top-bottom{
+    display: none;
+}
+
+.nav-top-bottom ul{
+    list-style-type: none;
+    
+}
+
+.nav-top-bottom a{
+    text-decoration:none;
+    color: #424242;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 7px;   
+}
+
+.cart-option-menu{
+    display: none;
+    background-color: #6DADE0;
+    color: white;
+}
+/* AQUI TERMINA HEADER */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA MAIN */
+.banner-main img{
+    width: 100%;
+}
+
+/* AQUI TERMINA MAIN */
+
+
+
+/* AQUI INICIAN LOS MEDIAS QUERYS */
+@media (min-width: 361px) {
+    .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+}
+
+/* AQUI TERMINAN LOS MEDIAS QUERYS */
+
