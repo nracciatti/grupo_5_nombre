@@ -1,6 +1,7 @@
 #6DC4E0 
 #6DADE0 
 #42938E -> Header Top
+#424242 -> color de texto
 #2F4B60
 #446B8B
 #588CB5

@@ -32,11 +32,35 @@ body{
     color: white;
 }
 
-.logo{
+.login-menu-hamb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-hamb-menu{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.hamburger-button{
+    background-color: #42938E;
+    color: white;
+    display: block;
+    max-width: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+/* .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  
+} */
 
 .logo img{
     width: 70px;
@@ -74,6 +98,43 @@ body{
 /* AQUI INICIA MAIN */
 .banner-main img{
     width: 100%;
+}
+
+.title-hot-sale{
+    margin-top: 5px;
+    padding: 5px 0px;
+    text-align: center;
+    color: #312e2e;
+
+}
+
+section .description-hot-sales{
+    padding: 10px;
+}
+
+section .section-hot-sales .description-hot-sales p{
+    text-align: justify;
+    color: #424242;
+}
+
+.products-hot{
+    padding: 10px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-detail{
+    padding: 0px 5px;
+    margin: 15px 0px;
+    color: rgb(110, 109, 109);
+}
+
+.products-hot article{
+    background-color: rgba(66, 147, 142, 0.3);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 /* AQUI TERMINA MAIN */
