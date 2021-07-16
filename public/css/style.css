@@ -6,9 +6,18 @@
 
 }
 
+a {
+ list-style: none;
+ text-decoration: none;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+article{
+    width: 90%;
+    margin: auto;
 }
 
 /* AQUI TERMINA ESTILOS GENERALES */
@@ -29,6 +38,7 @@ body{
 
 .header-top a, i{
     font-size: 14px;
+    text-decoration: none;
     color: white;
 }
 
@@ -100,24 +110,27 @@ body{
     width: 100%;
 }
 
-.title-hot-sale{
-    margin-top: 5px;
+.title-hot-sale, .title-week-sale, 
+.title-new-sale{
+    background-color: #42938E;
+    margin-top: 15px;
     padding: 5px 0px;
     text-align: center;
-    color: #312e2e;
+    color: white;
 
 }
 
-section .description-hot-sales{
+.description-hot-sales, .description-new-sales{
     padding: 10px;
 }
 
-section .section-hot-sales .description-hot-sales p{
+.description-hot-sales p
+, .description-new-sales p{
     text-align: justify;
     color: #424242;
 }
 
-.products-hot{
+.products-hot, .products-week, .products-new{
     padding: 10px;
 }
 
@@ -125,19 +138,104 @@ section .section-hot-sales .description-hot-sales p{
     width: 100%;
 }
 
-.product-detail{
-    padding: 0px 5px;
-    margin: 15px 0px;
-    color: rgb(110, 109, 109);
+.product-detail i {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
-.products-hot article{
+.product-detail{
+    padding:0 10px 0px 10px;
+    margin: 15px 0px;
+    color: rgb(110, 109, 109);
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.product-detail .price{
+    flex-grow: 3;
+    
+}
+
+.product-detail .discount{
+    flex-grow: 7;
+    
+}
+
+.product-detail i{
+    color: #42938E;
+    font: 16px;
+}
+
+.products-hot article, .products-week article, .products-new article{
     background-color: rgba(66, 147, 142, 0.3);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
+.product-detail h4{
+    display: none;
+}
 
 /* AQUI TERMINA MAIN */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA FOOTER */
+.secion-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    background-color: #42938E;
+    width: 100%;
+    padding: 15px;
+
+}
+
+/* .news-letter ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+} */
+
+/* .news-letter ul li{
+    margin: 5px 0px ;
+    
+} */
+
+.secion-footer a{
+    color: white;
+    
+}
+
+.social-media, .paid-method, .contact{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-media h5, .paid-method h5, .contact h5{
+    margin-bottom: 5px;    
+}
+
+.social-media, .paid-method, .contact{
+    flex-grow: 3;
+}
+
+div.contact{
+    display: none;
+}
+
+
+/* AQUI TERMINA FOOTER */
 
 
 
