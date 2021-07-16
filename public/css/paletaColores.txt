@@ -1,0 +1,12 @@
+#6DC4E0 
+#6DADE0 
+#42938E -> Header Top
+#42938E -> Font Awesone Cart
+#424242 -> color de texto
+rgba(66, 147, 142, 0.3) -> Background Descripcion producto
+rgb(110, 109, 109) -> Texto descripcion producto
+#2F4B60
+#446B8B
+#588CB5
+#184B73
+#FFFFFF -> titulos con fondo

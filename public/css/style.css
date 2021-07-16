@@ -1,0 +1,253 @@
+/* AQUI INICIA ESTILOS GENERALES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+ list-style: none;
+ text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+article{
+    width: 90%;
+    margin: auto;
+}
+
+/* AQUI TERMINA ESTILOS GENERALES */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA HEADER */
+.header-top{
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap; */
+    padding: 5px;
+    width: 100%;
+    background-color: #42938E; /* #6DADE0; */
+}
+
+.header-top a, i{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.login-menu-hamb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-hamb-menu{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.hamburger-button{
+    background-color: #42938E;
+    color: white;
+    display: block;
+    max-width: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+}
+
+/* .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+} */
+
+.logo img{
+    width: 70px;
+}
+
+.nav-top-bottom{
+    display: none;
+}
+
+.nav-top-bottom ul{
+    list-style-type: none;
+    
+}
+
+.nav-top-bottom a{
+    text-decoration:none;
+    color: #424242;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 7px;   
+}
+
+.cart-option-menu{
+    display: none;
+    background-color: #6DADE0;
+    color: white;
+}
+/* AQUI TERMINA HEADER */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA MAIN */
+.banner-main img{
+    width: 100%;
+}
+
+.title-hot-sale, .title-week-sale, 
+.title-new-sale{
+    background-color: #42938E;
+    margin-top: 15px;
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+
+}
+
+.description-hot-sales, .description-new-sales{
+    padding: 10px;
+}
+
+.description-hot-sales p
+, .description-new-sales p{
+    text-align: justify;
+    color: #424242;
+}
+
+.products-hot, .products-week, .products-new{
+    padding: 10px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-detail i {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.product-detail{
+    padding:0 10px 0px 10px;
+    margin: 15px 0px;
+    color: rgb(110, 109, 109);
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.product-detail .price{
+    flex-grow: 3;
+    
+}
+
+.product-detail .discount{
+    flex-grow: 7;
+    
+}
+
+.product-detail i{
+    color: #42938E;
+    font: 16px;
+}
+
+.products-hot article, .products-week article, .products-new article{
+    background-color: rgba(66, 147, 142, 0.3);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.product-detail h4{
+    display: none;
+}
+
+/* AQUI TERMINA MAIN */
+
+/* ************************************ */
+/* ==================================== */
+
+/* AQUI INICIA FOOTER */
+.secion-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    background-color: #42938E;
+    width: 100%;
+    padding: 15px;
+
+}
+
+/* .news-letter ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+} */
+
+/* .news-letter ul li{
+    margin: 5px 0px ;
+    
+} */
+
+.secion-footer a{
+    color: white;
+    
+}
+
+.social-media, .paid-method, .contact{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-media h5, .paid-method h5, .contact h5{
+    margin-bottom: 5px;    
+}
+
+.social-media, .paid-method, .contact{
+    flex-grow: 3;
+}
+
+div.contact{
+    display: none;
+}
+
+
+/* AQUI TERMINA FOOTER */
+
+
+
+/* AQUI INICIAN LOS MEDIAS QUERYS */
+@media (min-width: 361px) {
+    .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+}
+
+/* AQUI TERMINAN LOS MEDIAS QUERYS */
+
