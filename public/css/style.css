@@ -279,18 +279,16 @@ div.contact{
         margin-top: 15px;
     } */
     
-    /* article { */
+    
     .img-description{
         position: relative;
     }
 
-    /* article h4:hover { */
     .img-description h4:hover{
         opacity: 1;
-        /* border: 1px solid red; */
+
     }
 
-    /* article h4{  */
     .img-description h4{
         display: block;
         position: absolute;
@@ -316,7 +314,20 @@ div.contact{
         width: 40%;
     }
 
+    .description-new-sales{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;        
+    }
 
+    section .new-sales-note{
+        width: 40%;
+    }
+
+    .products-new{
+        padding: 0px;
+        width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -333,7 +344,6 @@ div.contact{
         justify-content: space-around;
         border: 2px solid red;
     }
-
 
     .cart-option-menu{
         display: block;
