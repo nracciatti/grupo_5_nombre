@@ -18,8 +18,8 @@
  <header>
      <div class="header-top">
         <div class="form-search">
-            <form action="#" method="get">
-                <input type="search" name="search-prod" id="search-prod" class="form-control">
+            <form action="#" method="get" class="search-fm">
+                <input type="text" name="search-prod" id="search-prod" max-length="120" class="form-control">
             </form>
         </div>
         <nav class="nav-create-login">
@@ -30,25 +30,28 @@
         </nav>
      </div>
      <div class="header-bottom">
+        <div class="logo">
+            <img src="/images/LogoFDMK.png" alt="Logo de tienda">
+        </div>
          <div class="login-menu-hamb">
-            <div class="logo">
-                <img src="/images/logoDecoring.png" alt="Logo de tienda">
-            </div>
+            <!-- <div class="logo">
+                <img src="/images/LogoFDMK.png" alt="Logo de tienda">
+            </div> -->
             <div class="content-hamb-menu">
                 <a href="#" class="hamburger-button">
                     <i class="fas fa-bars"></i>
                 </a>
             </div>             
          </div>         
-         <nav class="nav-top-bottom">
-            <ul class="content-menu-top-bottom">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Decoración</a></li>
-                <li><a href="#">Cocina</a></li>
-                <li><a href="#">Baño</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-         </nav>
+            <nav class="nav-top-bottom">
+                <ul class="content-menu-top-bottom">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Decoración</a></li>
+                    <li><a href="#">Cocina</a></li>
+                    <li><a href="#">Baño</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+             </nav>         
          <div class="cart-option-menu">
             <i class="fas fa-shopping-cart"></i>
          </div>
@@ -199,9 +202,11 @@
          </div>
          <div class="contact">
             <h5>Contacto</h5>
-            <i class="fas fa-home"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fas fa-mobile-alt"></i>
+            <ul>
+                <li><i class="fas fa-home"></i> Av Santa Fe 3000</li>
+                <li><i class="fas fa-envelope"></i> contact@fdmk.com</li>
+                <li><i class="fas fa-mobile-alt"></i> 11 15 9343-2344</li>
+            </ul>            
          </div>
      </div>
  </footer>   

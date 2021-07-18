@@ -3,10 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
-a {
+a{
  list-style: none;
  text-decoration: none;
 }
@@ -27,13 +26,24 @@ article{
 
 /* AQUI INICIA HEADER */
 .header-top{
-    /* display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 5px;
-    width: 100%;
     background-color: #42938E; /* #6DADE0; */
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+      /* flex-wrap: wrap;*/ 
+    padding: 5px;
+}
+
+.form-search input{
+    height: 35px;
 }
 
 .header-top a, i{
@@ -42,10 +52,15 @@ article{
     color: white;
 }
 
+.div-relleno{    
+    display: none;
+}
+
 .login-menu-hamb{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    flex-grow: 1;
 }
 
 .content-hamb-menu{
@@ -65,15 +80,17 @@ article{
     margin: auto;
 }
 
-/* .logo{
-    display: flex;
+.logo{
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    padding: 10px; 
   
-} */
+}
 
 .logo img{
-    width: 70px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .nav-top-bottom{
@@ -247,6 +264,69 @@ div.contact{
     align-content: center;
     flex-wrap: wrap;
     }
+
+
+}
+
+@media (min-width: 768px) {
+    .content-hamb-menu{
+        display: none;
+    }
+
+    .nav-top-bottom{
+        display: block;
+    }
+
+    .content-menu-top-bottom{
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid red;
+    }
+
+
+    .cart-option-menu{
+        display: block;
+    }
+    
+    .nav-create-login{
+        position: relative;
+        left: 50px;
+        flex-grow: 6;
+    }
+
+    .form-search{
+        flex-grow: 4;
+    }
+
+    footer .secion-footer h5{
+        font-size: 18px;
+    }
+
+    footer .paid-method, .social-media i{
+        font-size: 20px;
+    }
+   
+    
+    footer .contact, .social-media, .paid-method{
+        display: block;
+        width: 30%;
+        
+    }
+
+    footer ul{
+        list-style: none;
+        text-align: justify;
+    }
+
+    footer ul li{
+        padding: 5px;
+    }
+
+    footer .contact{
+        padding-left: 30px;
+    }
+
+    
 }
 
 /* AQUI TERMINAN LOS MEDIAS QUERYS */
