@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
     res.sendFile(htmlPath)
 })
 
-app.get('/cart', (req, res) => {
-    let htmlPath = path.resolve(__dirname, './views/productCart.html')
+app.get('/detail', (req, res) => {
+    let htmlPath = path.resolve(__dirname, './views/productDetail.html')
     res.sendFile(htmlPath)
 })
 
