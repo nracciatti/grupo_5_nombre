@@ -18,6 +18,6 @@ app.get('/cart', (req, res) => {
     res.sendFile(htmlPath)
 })
 
-app.listen(3030, () => {
+app.listen(process.env.PORT || 3030, () => {
     console.log('Servidor corriendo por puerto 3030');
 })
