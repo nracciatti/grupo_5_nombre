@@ -26,7 +26,7 @@
 - ***Nicolas Racciatti***
   > Mucho esfuerzo y estudio para cumplir el objetivo de ser Desarrollador FullStack, mecanica, juegos.
 
-## Tablero de Tareas:
+## Tablero de Tareas: ☑️
 [Trello](https://trello.com/b/0oQhvEvG/sprint-2)
 
 
