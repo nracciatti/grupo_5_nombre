@@ -28,5 +28,13 @@ app.get('/detail', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3030, () => {
-    console.log('Servidor corriendo por puerto 3030');
+
+app.get('/register', (req, res) => {
+    let htmlPath = path.join(__dirname, './views/register.html')
+    res.sendFile(htmlPath)
+})
+
+app.get('/login', (req, res) => {
+    let htmlPath = path.join(__dirname, './views/login.html')
+    res.sendFile(htmlPath)
 })
