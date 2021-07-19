@@ -2,7 +2,7 @@
 
 ## Sprint \# 1️⃣
 
-## Lo Malo 😞
+### Lo Malo 😞
 *Pocas reuniones para hacer seguimiento a las actividades.
 
 ## Lo Bueno 🤓
