@@ -129,16 +129,25 @@ article{
     padding: 20px 15px;
     max-width: 850px;
     width: 100%;
-    margin-top: 240px;
+    margin-top: 20px;
 }
 
 /* ==========*/
 .cart-option-menu{
     display: none;
+}
 
-.form-login, .form-register{
+.form-login{
     display:flex;
     justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.form-register{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-control{
@@ -420,9 +429,9 @@ h2.main{
 }
 
 /* TERMINA MAIN DE PRODUCT CART */
-=======
+/* ======= */
 /*=====================*/
-
+/* home */
 
 /* AQUI INICIAN LOS MEDIAS QUERYS */
 @media (min-width: 361px) {
