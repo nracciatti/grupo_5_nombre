@@ -50,15 +50,15 @@
  </header>
 
  <main>
-    <a class= "volver">
-        <button type="submit" class="button-form">Volver</button>
-    </a>
-    <a class="circle-env">
-        <i class="fas fa-shopping-cart"></i>
-        <i class="fas fa-dollar-sign"></i>
-    </a>
+    <div class= "back-login">
+        <button type="submit" class="button-form-volver">Volver</button>
+    </div>
     <div class="main">
-         <h2>Carrito de compras</h2>
+        <h2>Carrito de compras</h2>
+         <div class="circle-env">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-dollar-sign"></i>
+         </div>
             <nav class="barra-caracteristicas">
                <ul>
                     <li><a>Color</a></li>
@@ -67,25 +67,20 @@
                     <li><a>Subtotal</a></li>
                </ul>
             </nav>
-            <section class="sección-carrito">                
-                <article>
-
+            <section class="seccion-carrito">                
                     <img src="\images\imaen ducha.jpg" alt="Ducha">
-
-                        <div class="descripcion-articulo">
-                           <div class="caracteristicas"> 
-                           </div>
-                           <div>  
-                            <p class="color"></p> 
-                            <p class="cantidad"></p>                      
-                            <p class="precio-articulo">$800</p>
-                            <p class="subtotal"></p>
-                           </div>
+                        <nav class="descripcion-articulo">
+                           <ul class="caracteristicas"> 
+                            <li><a>Color</a></li>
+                            <li><a>Cantidad</a></li>                      
+                            <li><a>Precio</a></li>
+                            <li><a >Subtotal</a></li>
+                           </ul>
                            <strong><p>Ducha para baño</p></strong>
-                        </div>
-                </article>
+                        </nav>
+            </section>
+            <section>
                 <article>
-
                     <img src="/images\sillon 2 cuerpos.png" alt="Sillon">
                         <div class="descripcion-articulo">
                            <div class="caracteristicas">                        
@@ -100,7 +95,6 @@
                         </div>
                 </article>
                 <article>
-
                     <img src="/images\mueble cocina.jpg" alt="Mueble">
 
                         <div class="descripcion-articulo">

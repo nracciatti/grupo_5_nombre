@@ -150,8 +150,13 @@ article{
     align-items: center;
 }
 
+.form-search input{
+    height: 35px;
+}
+
 .form-control{
-    margin-bottom:15px
+    width: 100%;
+    border-radius: 7px;
 }
 
 .control{
@@ -334,79 +339,180 @@ div.contact{
 /*=====================================*/
 /* EMPIEZA MAIN DE PRODUCT DETAIL */
 
-.volver{
-    width: 15vw;
-    height: 3vh;
-    border-radius: 5px;
-    color: black;
-    background-color: #fff;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    justify-content: flex-start;
-}
-
-.login{
-    width: 15vw;
-    height: 3vh;
-    border-radius: 5px;
-    border-color: black;
-    background-color: #fff;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    justify-content: flex-end;
-}
-
-.main-product{
+.back-login{
     display: flex;
-    color: black;
-    background-color: #fff;
-    height: 80vh;
-    width: 100vw;
-    border-radius: 5px;
-    border-color: black;
-    text-align: center;
-    padding: auto;
-    margin:10px;
-}
-
-h3.main-product{
-    color:black;
-}
-
-.articulo-elegido{
-    flex-direction: column;
-    padding: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #424242;
-}
-
-.añadir{
-    background-color: grey;
-    color: white;
-    max-width: 100px;
-    padding: 5px 0;
-    border-radius: 12px;
-    text-align: center;
-    margin: auto;
-}
-
-.medios-de-pago{
-    text-decoration: underline;
-    font-style: italic;
-    color:black;
-}
-
-.envios{
-    text-align: center;
-    color: black;
-}
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  
+  .button-form-volver{
+      width: 9vw;
+      height: 4vh;
+      border-radius: 15px;
+      color: grey;
+      background-color: white;
+      padding: 5px;
+      margin: auto;
+      text-align: center;
+      justify-content: flex-start;
+  }
+  .button-form-login{
+      width: 9vw;
+      height: 4vh;
+      border-radius: 15px;
+      color: grey;
+      background-color: white;
+      padding: 5px;
+      margin: auto;
+      text-align: center;
+      justify-content: flex-end;
+  }
+  
+  .button-form-login:hover,.button-form-volver:hover{
+      background-color:#42938E;
+      color: white;
+  }
+  
+  .main-product{
+      display: flex;
+      width:100%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      background-color: rgba(66, 147, 142, 0.3);
+      margin-top: 15px;
+      padding: 5px 0px;
+      text-align: center;
+      color: white;
+      justify-content:space-between;
+  }
+  
+  .detalle-producto{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  
+  .articulo-elegido img{
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 500px;
+      height: 550px;
+      padding: 15px;
+      margin: 60px;
+      margin-left: 120px;
+      margin-bottom: 1px;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+  }
+  
+  .articulo-elegido img:hover{
+      background-color: #42938E;
+  }
+  
+  .caracteristicas{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      width: 500px;
+      height: 50px;
+      color: black;
+      padding: 10px;
+      margin: 1px;
+      margin-left: 120px;
+      margin-bottom: 25px;
+      border-radius: 3px;
+      background-color:#FFFFFF;
+  }
+  
+  .descripcion-articulo{
+      display: flex;
+      flex-direction: column;
+      background-color:white;
+      color: black;
+      border-radius: 5px;
+      width: 500px;
+      height: 600px;
+      margin-top: 60px;
+      margin-right: 120px;
+      margin-left: 1px;
+      padding-top: 30px ;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 30px;
+  }
+  
+  .descripcion{
+      font-size: 20px;
+      color: #424242;
+      text-align: left;
+      line-height: 25px;
+  }
+  
+  .opciones{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .button-form-agregar{
+      background-color: #42938E;
+      color: white;
+      width: 200px;
+      padding: 5px;
+      border-radius: 15px;
+      text-align: center;
+      margin: auto;
+  }
+  
+  .button-form-agregar:hover{
+      color:black;
+      background-color: rgba(66, 147, 142, 0.3);
+  }
+  
+  .button-form-medios:hover{
+      color: white;
+      background-color: grey;
+  }
+  
+  .button-form-medios{
+      color: black;
+      width: 200px;
+      padding: 5px;
+      text-align: center;
+      margin: auto;
+      font-style: italic;
+      text-decoration: underline;
+  }
+  
+  
+  .medios-de-pago{
+      display: flex;
+      flex-direction: row;
+      text-decoration: underline;
+      font-style: italic;
+      color:black;
+  }
+  
+  .tarjetas i{
+      display: flex;
+      font-size: 20px;
+      color:#424242;
+  }
+  
+  .envios{
+      text-align: left;
+      font-size: 20px;
+      color: black;
+  }
+  
+  .envios i{
+      color:#42938E;
+      font-size: 20px;
+  }
 
 /* TERMINA MAIN DE PRODUCT DETAIL */
 
@@ -417,15 +523,33 @@ h3.main-product{
     color: black;
 }
 
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
 h2.main{
     color: black;
 }
 
 .barra-caracteristicas{
     display: flex;
+    flex-direction: row;
     padding-left: 20px;
     padding-right: 20px;
     justify-content:space-between
+}
+
+.seccion-carrito{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.descripcion-articulo{
+    display: flex;
+    color:#424242;
+    justify-content: space-between;
 }
 
 /* TERMINA MAIN DE PRODUCT CART */

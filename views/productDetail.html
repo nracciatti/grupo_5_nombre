@@ -30,65 +30,114 @@
         </nav>
      </div>
      <div class="header-bottom">
-         <div class="logo">
-            <img src="/images/logoDecoring.png" alt="Logo de tienda">
-         </div>
-         <nav class="nav-top-bottom">
-            <ul class="content-menu-top-bottom">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Decoración</a></li>
-                <li><a href="#">Cocina</a></li>
-                <li><a href="#">Baño</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-         </nav>
-         <div class="cart-option-menu">
-            <i class="fas fa-shopping-cart"></i>
-         </div>
+        <div class="logo">
+            <img src="/images/LogoFDMK.png" alt="Logo de tienda">
+        </div>
+        <div class="login-menu-hamb">
+            <!-- <div class="logo">
+                <img src="/images/LogoFDMK.png" alt="Logo de tienda">
+            </div> -->
+            <div class="content-hamb-menu">
+                <a href="#" class="hamburger-button">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>             
+        </div>         
+            <nav class="nav-top-bottom">
+                <ul class="content-menu-top-bottom">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Decoración</a></li>
+                    <li><a href="#">Cocina</a></li>
+                    <li><a href="#">Baño</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>         
+        <div class="cart-option-menu">
+            <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
 
-     </div>
+    </div>
  </header>
  <main>
-    <a class= "volver">
-        <button type="submit" class="button-form">Volver</button>
-    </a>
-    <a class= "login">
-        <button type="submit" class="button-form">Login</button>
-        <i class="fas fa-sign-in-alt"></i>
-    </a>
-    <div class="main-product">
-        <section class="detalle-producto"> 
-            <h3>Nombre del producto</h3>
-            <article>
-                <div class="articulo-elegido">
-                  <img src="/images\imaen ducha.jpg" alt="Ducha">
-                </div>
-                <div class="caracteristicas"> 
-                   <div class="precio-articulo">  
-                      <p>$800</p>
-                   </div>
-                   <strong><p>Ducha para baño</p></strong>
+    <div class= "back-login">
+      <button type="submit" class="button-form-volver">Volver</button>
+      <button type="submit" class="button-form-login">Login</button>
+       <i class="fas fa-sign-in-alt"></i>
+    </div>
+
+   <div class="main-product">
+       <section class="detalle-producto"> 
+           <article>
+               <div class="articulo-elegido">
+                  <img src="/images/imaen ducha.jpg" alt="Ducha"> 
+               </div>
+               <div class="caracteristicas"> 
+                  <div class="precio-articulo">  
+                     <p>$18.000</p>
+                  </div>
+                  <strong><p>Ducha para baño</p></strong> 
+               </div>      
+           </article>
+       </section>
+       <section class="descripcion-articulo">
+           <h2>Nombre del producto</h2>
+               <div class="descripcion"> 
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia, non fugiat ipsum perspiciatis totam et nisi qui repellendus eum laboriosam rem corrupti reiciendis officia quidem quibusdam quas quos tempore </p>
+               </div>
+               <div class="opciones">
                    <div class="color">
-                   </div>  
-                </div>            
-                <div class="añadir">
-                    <button type="submit" class="button-form">Añadir al carrito</button>
-                </div>    
-                <div class="medios-de-pago">
-                    <button type="submit" class="button-form">Ver medios de pago</button>
-                        <i class="far fa-credit-card"></i>
-                        <i class="far fa-credit-card"></i>
-                        <i class="fab fa-cc-mastercard"></i>
-                        <i class="fas fa-credit-card"></i>
-                        <i class="fab fa-cc-mastercard"></i>
-                </div>
-                <div class="envios">
-                    <strong><p>Envíos a través de Correo Argentino y OCA</p></strong>
-                </div>      
-            </article>  
-        </section>
-    </div>  
- </main>
- <footer></footer>   
+                   </div> 
+                   <div class="agregar">
+                     <button type="submit" class="button-form-agregar">Agregar al carrito +</button>
+                   </div>    
+                   <div class="medios-de-pago">
+                     <button type="submit" class="button-form-medios">Ver medios de pago</button>
+                   </div>
+                   <div class="tarjetas">
+                       <i class="far fa-credit-card"></i>
+                       <i class="far fa-credit-card"></i>
+                       <i class="fab fa-cc-mastercard"></i>
+                       <i class="fas fa-credit-card"></i>
+                       <i class="fab fa-cc-mastercard"></i>
+                   </div>
+                   <div class="envios">
+                     <strong><p>Envíos a través de Correo Argentino y OCA</p></strong>
+                     <a><i class="fas fa-truck"></i></a>
+                   </div>
+               </div>        
+       </section>
+   </div>  
+</main>
+<footer>
+    <div class="secion-footer">
+        <!-- <div class="news-letter"> -->
+        <div class="paid-method">
+           <h5>Métodos de pago</h5>
+           <i class="fab fa-paypal" title="PayPal"></i>
+           <i class="fab fa-bitcoin" title="BitCoin"></i>
+           <i class="far fa-credit-card" title="Credit Card"></i>
+           <!-- <ul class="ul-news">
+               <li><a href="#">Nuevos Lanzamientos</a></li>
+               <li><a href="#">Lo que es tendencia</a></li>
+               <li><a href="#">Promociones</a></li>
+           </ul> -->
+        </div>
+        
+        <div class="social-media">
+           <h5>Redes Sociales</h5>
+           <i class="fab fa-facebook-square"></i>
+           <i class="fab fa-twitter-square"></i>
+           <i class="fab fa-instagram-square"></i>
+        </div>
+        <div class="contact">
+           <h5>Contacto</h5>
+           <ul>
+               <li><i class="fas fa-home"></i> Av Santa Fe 3000</li>
+               <li><i class="fas fa-envelope"></i> contact@fdmk.com</li>
+               <li><i class="fas fa-mobile-alt"></i> 11 15 9343-2344</li>
+           </ul>            
+        </div>
+    </div>
+</footer>  
 </body>
 </html>

@@ -27,6 +27,11 @@ app.get('/detail', (req, res) => {
     res.sendFile(htmlPath)
 })
 
+app.get('/cart', (req, res) => {
+    let htmlPath = path.resolve(__dirname, './views/productCart.html')
+    res.sendFile(htmlPath)
+})
+
 app.get('/register', (req, res) => {
     let htmlPath = path.join(__dirname, './views/register.html')
     res.sendFile(htmlPath)
