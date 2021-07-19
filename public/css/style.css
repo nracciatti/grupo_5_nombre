@@ -68,11 +68,7 @@ body{
     width: 100%;
     margin-top: 240px;
 }
-.cart-option-menu{
-    display: none;
-    background-color: #6DADE0;
-    color: white;
-}
+
 
 .form-login, .form-register{
     display:flex;
