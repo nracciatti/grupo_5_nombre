@@ -19,7 +19,8 @@
 ### Qué dejariamos dejar de hacer? ☢️
 *Dejar tareas para último momento.
 
-### Integrantes: 🤩
+
+## Integrantes: 🤩
 - ***Martin Castro***
   
 - ***Maria Palavecino***
