@@ -26,13 +26,19 @@ article{
 
 /* AQUI INICIA HEADER */
 
-
+/* .main-menu{
+    width: 100%;
+    position: absolute;
+} */
 
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    /* position: fixed;
+    width: 100%; 
+    z-index: 10; */
     padding: 5px;
     background-color: #42938E; /* #6DADE0; */
     
@@ -42,6 +48,11 @@ article{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    /* position: relative;
+    top:30px;
+    width: 100%;
+    z-index: 9; */
+    
       /* flex-wrap: wrap;*/ 
     padding: 5px;
     
@@ -124,8 +135,13 @@ article{
 /* ==================================== */
 
 /* AQUI INICIA MAIN */
+
+/* .banner-main{
+    position: relative;
+    top:125px;
+} */
 .banner-main img{
-    width: 100%;
+    width: 90%;
 }
 
 .title-hot-sale, .title-week-sale, 
@@ -343,6 +359,7 @@ div.contact{
         margin-left: 90px;
         padding-left: 10px;
         width: 60%;
+        
     }
 
     .nav-top-bottom a{
@@ -370,7 +387,7 @@ div.contact{
     
     .nav-create-login{
         position: relative;
-        left: 50px;
+        padding-left: 50px;
         flex-grow: 6;
     }
 
@@ -379,7 +396,7 @@ div.contact{
     }
 
     .products-hot article, .products-week article{
-        width: 22%;
+        width: 21%;
         transition: width, 0.5s;
     }
 
