@@ -7,7 +7,7 @@
 
 ### Lo Bueno 🤓
 *Incorporación del tablero de tareas (Trello)
-*Uso de metodoligía ágiles.
+*Uso de metodologías ágiles.
 *Repartición equitativas de tareas.
 
 ### Qué deberiamos a comenzar hacer? 🤔
