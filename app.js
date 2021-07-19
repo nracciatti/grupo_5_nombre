@@ -12,19 +12,30 @@ app.get('/', (req, res) => {
     res.sendFile(htmlPath)
 })
 
+app.get('/login', (req, res) => {
+    let htmlPath = path.resolve(__dirname, './views/login.html')
+    res.sendFile(htmlPath)
+})
+
+app.get('/register', (req, res) => {
+    let htmlPath = path.resolve(__dirname, './views/register.html')
+    res.sendFile(htmlPath)
+})
+
 app.get('/detail', (req, res) => {
     let htmlPath = path.resolve(__dirname, './views/productDetail.html')
     res.sendFile(htmlPath)
 })
-
-app.listen(process.env.PORT || 3030, () => {
 
 app.get('/register', (req, res) => {
     let htmlPath = path.join(__dirname, './views/register.html')
     res.sendFile(htmlPath)
 })
 
-app.get('/login', (req, res) => {
-    let htmlPath = path.join(__dirname, './views/login.html')
-    res.sendFile(htmlPath)
+
+app.listen(process.env.PORT || 3030, () => {
+    console.log("Servidor Corriendo el 3030");
 })
+
+
+

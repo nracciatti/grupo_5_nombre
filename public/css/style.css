@@ -26,13 +26,19 @@ article{
 
 /* AQUI INICIA HEADER */
 
-
+/* .main-menu{
+    width: 100%;
+    position: absolute;
+} */
 
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    /* position: fixed;
+    width: 100%; 
+    z-index: 10; */
     padding: 5px;
     background-color: #42938E; /* #6DADE0; */
     
@@ -42,6 +48,11 @@ article{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    /* position: relative;
+    top:30px;
+    width: 100%;
+    z-index: 9; */
+    
       /* flex-wrap: wrap;*/ 
     padding: 5px;
     
@@ -118,16 +129,25 @@ article{
     padding: 20px 15px;
     max-width: 850px;
     width: 100%;
-    margin-top: 240px;
+    margin-top: 20px;
 }
 
 /* ==========*/
 .cart-option-menu{
     display: none;
+}
 
-.form-login, .form-register{
+.form-login{
     display:flex;
     justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.form-register{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-control{
@@ -167,8 +187,13 @@ article{
 /* ==================================== */
 
 /* AQUI INICIA MAIN */
+
+/* .banner-main{
+    position: relative;
+    top:125px;
+} */
 .banner-main img{
-    width: 100%;
+    width: 90%;
 }
 
 /*=========*/
@@ -404,9 +429,9 @@ h2.main{
 }
 
 /* TERMINA MAIN DE PRODUCT CART */
-=======
+/* ======= */
 /*=====================*/
-
+/* home */
 
 /* AQUI INICIAN LOS MEDIAS QUERYS */
 @media (min-width: 361px) {
@@ -493,6 +518,7 @@ h2.main{
         margin-left: 90px;
         padding-left: 10px;
         width: 60%;
+        
     }
 
     .nav-top-bottom a{
@@ -520,7 +546,7 @@ h2.main{
     
     .nav-create-login{
         position: relative;
-        left: 50px;
+        padding-left: 49px;
         flex-grow: 6;
     }
 
