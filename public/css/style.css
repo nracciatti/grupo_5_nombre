@@ -485,7 +485,7 @@ h2.main{
     
     .nav-create-login{
         position: relative;
-        padding-left: 50px;
+        padding-left: 49px;
         flex-grow: 6;
     }
 
@@ -494,7 +494,7 @@ h2.main{
     }
 
     .products-hot article, .products-week article{
-        width: 21%;
+        width: 22%;
         transition: width, 0.5s;
     }
 
