@@ -111,12 +111,55 @@ article{
 }
 
 .form-control{
-    width: 100%;
-    border-radius: 7px;   
+    margin-bottom: 15px;  
 }
 
+.create-form{
+    padding: 20px 15px;
+    max-width: 850px;
+    width: 100%;
+    margin-top: 240px;
+}
+
+/* ==========*/
 .cart-option-menu{
     display: none;
+
+.form-login, .form-register{
+    display:flex;
+    justify-content: center;
+}
+
+.form-control{
+    margin-bottom:15px
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.button-form{
+    background-color: #42938E;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+/* ========*/
+.button-form:hover {
+    background-color: turquoise;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.crearCuenta:hover{
+    color: #6DC4E0;
 }
 /* AQUI TERMINA HEADER */
 
@@ -128,6 +171,7 @@ article{
     width: 100%;
 }
 
+/*=========*/
 .title-hot-sale, .title-week-sale, 
 .title-new-sale{
     background-color: #42938E;
@@ -207,6 +251,11 @@ article h4{
 /* ==================================== */
 
 /* AQUI INICIA FOOTER */
+
+/* AQUI TERMINA MAIN */
+
+/* AQUI INICIA FOOTER*/ 
+
 .secion-footer{
     display: flex;
     /* justify-content: space-between; */
@@ -257,6 +306,7 @@ div.contact{
 /* AQUI TERMINA FOOTER */
 
 
+/*=====================================*/
 /* EMPIEZA MAIN DE PRODUCT DETAIL */
 
 .volver{
@@ -354,6 +404,8 @@ h2.main{
 }
 
 /* TERMINA MAIN DE PRODUCT CART */
+=======
+/*=====================*/
 
 
 /* AQUI INICIAN LOS MEDIAS QUERYS */
@@ -527,6 +579,36 @@ h2.main{
     }
 
     
+}
+
+@media (min-widht: 768px) {
+    footer .secion-footer h5{
+        font-size: 18px;
+    }
+
+    footer .paid-method, .social-media i{
+        font-size: 20px;
+    }
+   
+    
+    footer .contact, .social-media, .paid-method{
+        display: block;
+        width: 30%;
+        
+    }
+
+    footer ul{
+        list-style: none;
+        text-align: justify;
+    }
+
+    footer ul li{
+        padding: 5px;
+    }
+
+    footer .contact{
+        padding-left: 30px;
+    }    
 }
 
 /* AQUI TERMINAN LOS MEDIAS QUERYS */
