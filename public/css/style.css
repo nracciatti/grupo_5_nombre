@@ -339,7 +339,7 @@ div.contact{
 /*=====================================*/
 /* EMPIEZA MAIN DE PRODUCT DETAIL */
 
-.back-login{
+/* .back-login{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -518,7 +518,7 @@ div.contact{
 
 /* EMPIEZA MAIN DE PRODUCT CART */
 
-.circle-env{
+/* .circle-env{
     justify-content: flex-end;
     color: black;
 }
@@ -550,7 +550,7 @@ h2.main{
     display: flex;
     color:#424242;
     justify-content: space-between;
-}
+} */
 
 /* TERMINA MAIN DE PRODUCT CART */
 /* ======= */
