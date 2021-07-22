@@ -13,7 +13,6 @@
     <!-- Estilos Normalize y custom -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
  <header>
@@ -32,7 +31,7 @@
      </div>
      <div class="header-bottom">
          <div class="logo">
-            <img src="/images/LogoFDMK.png" alt="Logo de tienda">
+            <img src="/images/logoDecoring.png" alt="Logo de tienda">
          </div>
          <nav class="nav-top-bottom">
             <ul class="content-menu-top-bottom">
@@ -49,86 +48,72 @@
 
      </div>
  </header>
+
  <main>
-    <div class= "back">
-        <button type="submit" class="button-volver">Volver</button>
+    <div class= "back-login">
+        <button type="submit" class="button-form-volver">Volver</button>
     </div>
-    <div class="main-cart">
-        <div class="title">
-          <h2>Carrito de compras</h2>
-           <!-- <div class="circle-env">
-            <i class="fas fa-shopping-cart"></i> -->
-           </div>
-        </div>
-            <nav>
-               <div class="barra-caracteristicas">
-                    <p>Color</p>
-                    <p>Cantidad</p>
-                    <p>Precio</p>
-                    <p>Subtotal</p>
-               </div>
+    <div class="main">
+        <h2>Carrito de compras</h2>
+         <div class="circle-env">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-dollar-sign"></i>
+         </div>
+            <nav class="barra-caracteristicas">
+               <ul>
+                    <li><a>Color</a></li>
+                    <li><a>Cantidad</a></li>
+                    <li><a>Precio</a></li>
+                    <li><a>Subtotal</a></li>
+               </ul>
             </nav>
-            <section>  
-                <article>
-                    <div class="contenedor-articulo1">
-                        <div class="contenedor-imagen1">                       
-                            <div class="articulo-uno">         
-                               <img src="\images\imaen ducha.jpg" alt="Ducha">
-                            </div> 
-                            <div>
-                                <p>Ducha para baño</p>
-                            </div>
-                        </div>
-                        <div class="caract-elegidas">
-                           <p class="color">Plateado</p> 
-                           <p class="cantidad">1</p>                          
-                           <p class="precio">$18.000</p>
-                           <p class="subtotal">$18.800</p>
-                        </div>
-                    </div>
-                </article>
+            <section class="seccion-carrito">                
+                    <img src="\images\imaen ducha.jpg" alt="Ducha">
+                        <nav class="descripcion-articulo">
+                           <ul class="caracteristicas"> 
+                            <li><a>Color</a></li>
+                            <li><a>Cantidad</a></li>                      
+                            <li><a>Precio</a></li>
+                            <li><a >Subtotal</a></li>
+                           </ul>
+                           <strong><p>Ducha para baño</p></strong>
+                        </nav>
             </section>
             <section>
                 <article>
-                    <div class="contenedor-articulo2">
-                        <div class="contenedor-imagen2"> 
-                            <div class="articulo-dos">
-                              <img src="/images\sillon 2 cuerpos.png" alt="Sillon">
-                            </div> 
-                            <div>
-                                <p>Sillón dos cuerpos</p>
-                            </div>                       
-                        </div>
-                        <div class="caract-elegidas">
-                            <p class="color">Beige</p> 
-                            <p class="cantidad">1</p>                          
+                    <img src="/images\sillon 2 cuerpos.png" alt="Sillon">
+                        <div class="descripcion-articulo">
+                           <div class="caracteristicas">                        
+                           </div>
+                           <div>
+                            <p class="color"></p> 
+                            <p class="cantidad"></p>                          
                             <p class="precio">$35.000</p>
-                            <p class="subtotal">$35.800</p>
+                            <p class="subtotal"></p>
+                           </div>
+                           <strong><p>Sillón dos cuerpos</p></strong>
                         </div>
-                    </div>
                 </article>
                 <article>
-                    <div class="contenedor-articulo3">
-                        <div class="contenedor-imagen3"> 
-                            <div class="articulo-tres">
-                               <img src="/images\mueble cocina.jpg" alt="Mueble">
-                            </div>
-                            <div>
-                                <p>Mueble para cocina</p>
-                            </div> 
-                        </div>
-                        <div class="caract-elegidas">          
-                            <p class="color">Celeste</p> 
-                            <p class="cantidad">1</p>           
-                            <p class="precio">$12.000</p>
-                            <p class="subtotal">$12.800</p>
+                    <img src="/images\mueble cocina.jpg" alt="Mueble">
+
+                        <div class="descripcion-articulo">
+                           <div class="caracteristicas">                        
+                           </div>
+                           <div>          
+                            <p class="color"></p> 
+                            <p class="cantidad"></p>           
+                            <p class="precio">$5.000</p>
+                            <p class="subtotal"></p>
+                           </div>
+                           <strong><p>Mueble para cocina</p></strong>
                         </div>
                 </article>
-                <div class="seguir-comprando">
-                    <button type="submit" class="button-form-seg-comp">Seguir comprando +</button>
-                </div>
             </section>
     </div>
+    <a class="seguir-comprando">
+    <button type="submit" class="button-form">Seguir comprando</button>
+    </a>
  </main>
  <footer>
     <div class="secion-footer">
