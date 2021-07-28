@@ -1,9 +1,9 @@
 # 💈Grupo-5-FurnituresDigitalMarket 💈
 
 ## Furnitures Digital Market 🚀
-*Esta tienda electrónica fue concebida con la finalidad de antender las necesidades de un exclusivo y exigente público, ofreciendo productos de alta gama, fabricados bajo los estandares más altos de calidad y diseño.* :star2:🥇:star2:
+*Esta tienda electrónica fue concebida con la finalidad de atender las necesidades de un exclusivo y exigente público, ofreciendo productos de alta gama, fabricados bajo los estandares más altos de calidad y diseño.* :star2:🥇:star2:
 
-*Nuestro enfoque está dirigido a una parte de la población denomida como, Generaciòn Y. Caracterizada por estar abiertos al cambio y su conexión con el mundo globalizado además son nativos digitales* 📱 🖥️ 💻
+*Nuestro enfoque está dirigido a una parte de la población denomida como Generación Y. Caracterizada por estar abiertos al cambio y su conexión con el mundo globalizado, además de ser nativos digitales* 📱 🖥️ 💻
 
 ## Fuentes de inspiración 🎨
 :one: [Ikea](https://www.ikea.com)
